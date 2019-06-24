@@ -26,7 +26,7 @@
           <h3>Master</h3>
           <ul class="nav side-menu">
             <li><a href="{{route('home')}}"><i class="fa fa-laptop"></i> Dashboard </span></a></li>
-            <li><a href="#"><i class="fa fa-users"></i> User </span></a></li>
+            <li><a href="{{route('user')}}"><i class="fa fa-users"></i> User </span></a></li>
             <li><a href="#"><i class="fa fa-windows"></i> Kategori </span></a></li>
             <li><a href="#"><i class="fa fa-table"></i> Data Barang </span></a></li>
 

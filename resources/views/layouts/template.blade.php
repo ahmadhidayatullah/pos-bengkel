@@ -19,6 +19,8 @@
     <!-- NProgress -->
     <link href="{{asset('assets/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
 
+    <link href="{{asset('assets/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css')}}" rel="stylesheet">
+
     @yield('css')
 
     <!-- Custom Theme Style -->
@@ -54,6 +56,9 @@
     <script src="{{asset('assets/vendors/fastclick/lib/fastclick.js')}}"></script>
     <!-- NProgress -->
     <script src="{{asset('assets/vendors/nprogress/nprogress.js')}}"></script>
+
+    <script src="{{asset('assets/vendors/datatables.net/js/jquery.dataTables.min.js')}}"></script>
+    <script src="{{asset('assets/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js')}}"></script>
     
     @yield('js')
     
